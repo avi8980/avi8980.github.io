@@ -9,11 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-  max-width: 65px;
-  border-width: 3px;
-  border-color: #F05F44; 
-}
+
 
 .faded {
   color: rgba(255, 255, 255, 0.8); 
@@ -46,14 +42,16 @@ header.startup h1 {
   padding: 1rem 2rem; 
 }
 
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
 
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 5px;
+
+.btn-success:hover {
+  background-color:  #4CAF50;;
+  border-color:  #4CAF50;;
+  border-width: 2px;
   cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
-  
+.btn-sucess:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}  

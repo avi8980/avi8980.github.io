@@ -27,6 +27,12 @@ header.startup hr {
   margin-bottom: 30px; 
 }
 
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
 header.startup h1 {
   font-size: 2rem; 
 }
